@@ -4,11 +4,11 @@ import string
 import captcha_image
 
 # Constant
-CAPTCHA_DIR = "captchas"
+CAPTCHA_DIR = "captchas/labeled"
 SAVE_DIR = "dataset"
 FILE_EXTENSION = ".png"
-IMAGE_SET_NAME = "image_set.npy"
-LABEL_SET_NAME = "label_set.npy"
+IMAGE_SET_NAME = "tixcraft_image_set.npy"
+LABEL_SET_NAME = "tixcraft_label_set.npy"
 IMAGE_SIZE = (120, 100)
 CHAR_COUNT = 4
 CHARSET = string.ascii_lowercase # from 'a' to 'z'
