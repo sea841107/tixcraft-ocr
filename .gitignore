@@ -3,4 +3,6 @@
 *.pth
 *.ckpt
 *.png
+*.pt
+*.onnx
 __pycache__
